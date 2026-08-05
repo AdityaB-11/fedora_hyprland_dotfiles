@@ -1,0 +1,28 @@
+{
+  "name": "pywal",
+  "variables": {
+    "window_bg_color": "{background}",
+    "window_fg_color": "{foreground}",
+    "view_bg_color": "{background}",
+    "view_fg_color": "{foreground}",
+    "sidebar_bg_color": "{background}",
+    "sidebar_fg_color": "{foreground}",
+    "sidebar_backdrop_bg_color": "{background}",
+    "headerbar_bg_color": "{background}",
+    "headerbar_fg_color": "{foreground}",
+    "card_bg_color": "{color0}",
+    "card_fg_color": "{foreground}",
+    "popover_bg_color": "{color0}",
+    "popover_fg_color": "{foreground}",
+    "accent_bg_color": "{color4}",
+    "accent_fg_color": "{background}",
+    "accent_color": "{color4}"
+  },
+  "palette": {
+    "blue_1": "{color4}",
+    "green_1": "{color2}",
+    "red_1": "{color1}",
+    "orange_1": "{color3}",
+    "purple_1": "{color5}"
+  }
+}

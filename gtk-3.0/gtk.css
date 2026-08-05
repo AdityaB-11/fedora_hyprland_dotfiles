@@ -1,0 +1,57 @@
+
+/* -------- GTK3 -------- */
+
+window,
+dialog,
+.background {
+    background-color: #0c141d;
+    color: #c2c4c6;
+}
+
+headerbar,
+.titlebar {
+    background-color: #0c141d;
+    color: #c2c4c6;
+}
+
+treeview.view,
+textview,
+entry,
+text,
+button,
+combobox,
+spinbutton {
+    background-color: #0c141d;
+    color: #c2c4c6;
+}
+
+button:hover {
+    background-color: #596350;
+}
+
+button:checked,
+button:selected {
+    background-color: #638975;
+    color: #0c141d;
+}
+
+menu,
+menuitem,
+popover {
+    background-color: #0c141d;
+    color: #c2c4c6;
+}
+
+tooltip {
+    background-color: #0c141d;
+    color: #c2c4c6;
+}
+
+scrollbar slider {
+    background-color: #5c6570;
+}
+
+selection {
+    background-color: #638975;
+    color: #0c141d;
+}

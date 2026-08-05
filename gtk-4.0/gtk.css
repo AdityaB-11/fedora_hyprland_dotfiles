@@ -1,0 +1,38 @@
+
+/* -------- GTK4 / libadwaita -------- */
+
+@define-color window_bg_color #0c141d;
+@define-color window_fg_color #c2c4c6;
+
+@define-color view_bg_color #0c141d;
+@define-color view_fg_color #c2c4c6;
+
+@define-color headerbar_bg_color #0c141d;
+@define-color headerbar_fg_color #c2c4c6;
+
+@define-color sidebar_bg_color #0c141d;
+@define-color sidebar_fg_color #c2c4c6;
+
+@define-color card_bg_color #0c141d;
+@define-color card_fg_color #c2c4c6;
+
+@define-color popover_bg_color #0c141d;
+@define-color popover_fg_color #c2c4c6;
+
+@define-color accent_bg_color #638975;
+@define-color accent_fg_color #0c141d;
+
+window,
+dialog,
+headerbar,
+.navigation-sidebar,
+listview,
+scrolledwindow {
+    background: #0c141d;
+    color: #c2c4c6;
+}
+
+row:selected {
+    background: #638975;
+    color: #0c141d;
+}

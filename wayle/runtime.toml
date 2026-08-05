@@ -1,0 +1,44 @@
+[bar]
+scale = 0.800000011920929
+bg = "transparent"
+button-icon-size = 0.949999988079071
+button-label-weight = "bold"
+button-rounding = "lg"
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "hyprland-workspaces",
+    "cava",
+]
+center = [
+    "clock",
+    "notifications",
+]
+right = [
+    "battery",
+    "network",
+    "bluetooth",
+    "dashboard",
+]
+
+[styling]
+rounding = "md"
+theme-provider = "pywal"
+
+[modules.bluetooth]
+label-show = false
+
+[modules.hyprland-workspaces]
+show-special = false
+app-icons-show = true
+
+[osd]
+enabled = false
+
+[wallpaper]
+engine-enabled = false
+cycling-enabled = true
+cycling-directory = "/home/aditya11/Downloads/wallpapers/3141207_2026-07-15T17_10_41.919.jpg"
+cycling-same-image = true
