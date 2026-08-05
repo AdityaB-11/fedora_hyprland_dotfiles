@@ -1,6 +1,6 @@
 # 🚀 Hyprland Dotfiles
 
-A clean, minimal, and modern **Hyprland** setup for Fedora and CachyOS featuring a dynamic Wayland workflow, automatic wallpaper-based theming, a lightweight top bar, and a fast application launcher.
+Just the way I like it.
 
 ---
 
