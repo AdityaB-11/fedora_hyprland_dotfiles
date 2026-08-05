@@ -16,20 +16,7 @@ A clean, minimal, and modern **Hyprland** setup for Fedora and CachyOS featuring
 
 ---
 
-# ✨ Features
-
-* 🪟 Dynamic tiling with **Hyprland**
-* 📊 Lightweight **Wayle** top bar
-* 🚀 Fast application launcher with **Fuzzel**
-* 🖥️ GPU-accelerated **Alacritty** terminal
-* 🎨 Automatic wallpaper-based colors using **Pywal**
-* ⭐ Beautiful shell prompt with **Starship**
-* 🌈 GTK3/GTK4 themed applications
-* 📂 Nautilus as the file manager
-* 💻 Modern Bash configuration
-* 🌈 System information with **Hyfetch**
-
----
+ 
 
 # 🛠️ Applications Used
 
@@ -158,38 +145,12 @@ starship
 | Shortcut          | Action                                                    |
 | ----------------- | --------------------------------------------------------- |
 | **Super + Enter** | Open Alacritty                                            |
-| **Super + D**     | Launch Fuzzel                                             |
+| **Super + Space** | Launch Fuzzel                                             |
 | **Wayle**         | Display top bar with workspaces, clock, and system status |
 | **Pywal**         | Generate a color scheme from the current wallpaper        |
 | **Starship**      | Enhance the Bash prompt                                   |
 
 ---
 
-# 📜 Included Configuration
-
-* Hyprland
-* Wayle
-* Fuzzel
-* Alacritty
-* Pywal
-* GTK3 / GTK4
-* Starship
-* Bash
-* Hyfetch
-* MIME application defaults
-
----
-
-# ❤️ Credits
-
-This setup is powered by the amazing Linux desktop ecosystem:
-
-* Hyprland
-* Wayland
-* Fuzzel
-* Alacritty
-* Pywal
-* Starship
-
-If you like this setup, feel free to ⭐ the repository!
+ 
 
