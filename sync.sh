@@ -51,8 +51,3 @@ done
 
 echo
 echo "Dotfiles updated!"
-echo "Now run:"
-echo "  git status"
-echo "  git add ."
-echo "  git commit -m \"Update dotfiles\""
-echo "  git push"
