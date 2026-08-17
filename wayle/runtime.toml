@@ -1,9 +1,19 @@
 [bar]
 scale = 0.800000011920929
+padding = 0.0
+padding-ends = 0.0
+module-gap = 0.0
 bg = "transparent"
+border-width = 0
+border-color = "transparent"
+button-bg-opacity = 0
 button-icon-size = 0.949999988079071
+button-label-size = 1.0499999523162842
 button-label-weight = "bold"
+button-label-padding = 1.5
 button-rounding = "lg"
+button-group-opacity = 0
+dropdown-opacity = 80
 
 [[bar.layout]]
 monitor = "*"
@@ -12,11 +22,9 @@ left = [
     "hyprland-workspaces",
     "cava",
 ]
-center = [
-    "clock",
-    "notifications",
-]
+center = ["clock"]
 right = [
+    "volume",
     "battery",
     "network",
     "bluetooth",
@@ -26,19 +34,52 @@ right = [
 [styling]
 rounding = "md"
 theme-provider = "pywal"
+pywal-light = true
+
+[modules.battery]
+icon-bg-color = "transparent"
+label-show = false
+label-color = "status-info"
 
 [modules.bluetooth]
+icon-bg-color = "transparent"
 label-show = false
+
+[modules.clock]
+format = "%I:%M %p"
+icon-show = false
+icon-bg-color = "transparent"
+label-color = "bg-elevated"
+
+[modules.dashboard]
+icon-bg-color = "transparent"
 
 [modules.hyprland-workspaces]
 show-special = false
 app-icons-show = true
+active-color = "transparent"
 
-[osd]
-enabled = false
+[modules.network]
+icon-bg-color = "transparent"
+label-show = false
+label-max-length = 12
+
+[modules.volume]
+border-color = "accent"
+icon-bg-color = "transparent"
+label-show = false
+label-color = "accent"
+
+[modules.window-title]
+icon-show = false
+label-max-length = 0
 
 [wallpaper]
 engine-enabled = false
-cycling-enabled = true
-cycling-directory = "/home/aditya11/Downloads/wallpapers/3141207_2026-07-15T17_10_41.919.jpg"
+cycling-directory = "/home/aditya11/Pictures/Wallpapers/wallhaven-zywgxy.jpg"
 cycling-same-image = true
+
+[[wallpaper.monitors]]
+name = ""
+fit-mode = "fill"
+wallpaper = "/home/aditya11/Pictures/Wallpapers/wallhaven-yqg6r7.jpg"

@@ -45,3 +45,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 afetch
 eval "$(starship init bash)"
+export PATH="$HOME/.local/opt/dart-sass:$PATH"
+
+. "$HOME/.local/bin/env"
