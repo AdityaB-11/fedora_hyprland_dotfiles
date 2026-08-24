@@ -13,13 +13,14 @@ button-label-weight = "bold"
 button-label-padding = 1.5
 button-rounding = "lg"
 button-group-opacity = 0
-dropdown-opacity = 80
+dropdown-opacity = 90
 
 [[bar.layout]]
 monitor = "*"
 show = true
 left = [
     "hyprland-workspaces",
+    "media",
     "cava",
 ]
 center = ["clock"]
@@ -46,6 +47,7 @@ icon-bg-color = "transparent"
 label-show = false
 
 [modules.cava]
+bars = 14
 color = "bg-surface"
 border-color = "transparent"
 
@@ -59,9 +61,14 @@ label-color = "bg-surface"
 icon-bg-color = "transparent"
 
 [modules.hyprland-workspaces]
+min-workspace-count = 5
 show-special = false
-app-icons-show = true
 active-color = "transparent"
+
+[modules.media]
+icon-show = false
+label-color = "bg-base"
+label-max-length = 30
 
 [modules.network]
 icon-bg-color = "transparent"
