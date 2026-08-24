@@ -5,7 +5,7 @@
 
 -- Programs
 terminal = "alacritty"
-fileManager = "nautilus"
+fileManager = "thunar"
 menu = "fuzzel"
 
 -- Mod key

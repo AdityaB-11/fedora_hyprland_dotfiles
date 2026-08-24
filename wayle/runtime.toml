@@ -45,11 +45,15 @@ label-color = "status-info"
 icon-bg-color = "transparent"
 label-show = false
 
+[modules.cava]
+color = "bg-surface"
+border-color = "transparent"
+
 [modules.clock]
 format = "%I:%M %p"
 icon-show = false
-icon-bg-color = "transparent"
-label-color = "bg-elevated"
+icon-bg-color = "bg-surface"
+label-color = "bg-surface"
 
 [modules.dashboard]
 icon-bg-color = "transparent"

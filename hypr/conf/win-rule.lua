@@ -43,6 +43,12 @@ hl.window_rule({
 	},
 	opacity = "1.0 override 1.0 override 1.0 override",
 })
+hl.window_rule({
+	match = {
+		class = "org.gnome.Snapshot",
+	},
+	opacity = "1.0 override 1.0 override 1.0 override",
+})
 
 -- Layer rules also return a handle.
 -- local overlayLayerRule = hl.layer_rule({
