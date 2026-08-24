@@ -8,7 +8,7 @@ Just the way I like it.
 
 ## Desktop
 
-![Desktop](demo/desktop.png)
+![Desktop](demo/dekstop.png)
 
 ## Hyprland
 
